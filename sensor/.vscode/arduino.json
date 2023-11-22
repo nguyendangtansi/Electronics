@@ -1,6 +1,6 @@
 {
     "sketch": "sensor.ino",
-    "port": "COM1",
+    "port": "COM12",
     "board": "arduino:samd:mkrwifi1010",
     "output": "build",
     "intelliSenseGen": "global"
