@@ -1,0 +1,8 @@
+{
+    "sketch": "arduino_wheel.ino",
+    "port": "/dev/ttyACM0",
+    "board": "arduino:samd:mkrwifi1010",
+    "output": "build",
+    "intelliSenseGen": "global"
+}
+
