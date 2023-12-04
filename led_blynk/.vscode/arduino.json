@@ -1,0 +1,8 @@
+{
+    "sketch": "led_blynk.ino",
+    "port": "/dev/ttyACM0",
+    "board": "arduino:samd:mkrwifi1010",
+    "output": "build",
+    "intelliSenseGen": "global"
+}
+

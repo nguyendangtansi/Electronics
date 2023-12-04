@@ -34,3 +34,27 @@ void loop() {
 
 - @si for example, what does this variable do:
     - `int sensorValueX = analogRead(A0)`
+
+## different motor types
+there are different motor types:
+- DC motor:
+  - stepper motor [link](https://en.wikipedia.org/wiki/Stepper_motor)
+  - Servo motor
+
+## drive for servo motor: L298N
+- it has MOSFEST:
+  - it is a transistor-bridge circut [link](https://en.wikipedia.org/wiki/H-bridge)
+
+# TODO:
+- Anssi's suggestion:
+  - the PWM is running by arduino
+  - Arduino is generating `V_max`
+  - we need to find the frequency of the main board on the vacuum cleaner
+    - connect it to an oscilloscope
+    - read the period using a cursor
+    - this period is the cycle to which the wheel encoder is matched
+  - then, we have to do PWM on the arduino code:
+    - possibly setting the frequency
+    - from which we can get the period
+    - then we set the width which is the duty cycle
+    - using this duty cycle and the PWM module of the drive, we can control the output voltage which is connected to the motor
